@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <input bindinput="onInput" value="{{ code }}" placeholder="请输入快递单号" auto-focus/>
+  </view>
+  <view class="usermotto">
+    <text bindtap="search" class="user-motto">{{motto}}</text>
+  </view>
+</view>

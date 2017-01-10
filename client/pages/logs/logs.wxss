@@ -1,0 +1,22 @@
+
+.log-list {
+  display: block;
+  padding: 40rpx;
+  text-align:left;
+}
+.log-item {
+  margin: 10rpx;
+  display: block;
+  width: 100%;
+  line-height: 1.3;
+  text-align:left;
+  border-top:2rpx solid #e3e3e3;
+  padding-top: 20rpx;
+}
+.log-item-time{
+  color: gray;
+  text-align:left;
+  width: 100%;
+  padding-bottom: 20rpx;
+  display: block;
+}

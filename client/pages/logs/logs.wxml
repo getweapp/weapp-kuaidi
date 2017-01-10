@@ -1,0 +1,7 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <view wx:for="{{traces}}" wx:key="{{item}}">
+    <text class="log-item">🚚 {{item.AcceptStation}}</text>
+    <text class="log-item-time">{{item.AcceptTime}}</text>
+  </view>
+</view>
